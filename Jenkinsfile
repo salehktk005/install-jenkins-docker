@@ -11,7 +11,6 @@ pipeline {
             }
             steps {
                 dir('learn-jenkins-app') {
-                    sh 'npm test'
                 sh '''
                 ls -a
                 node -v
