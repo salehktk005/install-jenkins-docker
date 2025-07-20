@@ -8,7 +8,7 @@ pipeline {
                 reuseNode true
             }
             steps {
-                sh ''']
+                sh '''
                 ls -a
                 node -v
                 npm -v
