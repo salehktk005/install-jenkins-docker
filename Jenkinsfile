@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Check Structure') {
-            steps {
-                sh 'ls -R'
-            }
-        }
-
         stage('build') {
             agent {
                 docker {
